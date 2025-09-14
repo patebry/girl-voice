@@ -1,0 +1,170 @@
+.page-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  line-height: 1.6;
+}
+
+.page-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  background: linear-gradient(135deg, #ff6bb3, #b565d8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.page-container h2 {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  color: #ff6bb3;
+}
+
+.page-container h3 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #b565d8;
+}
+
+.page-container p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.page-container ul,
+.page-container ol {
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.page-container li {
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+}
+
+.page-container section {
+  margin-bottom: 3rem;
+}
+
+.page-container .intro-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.page-container blockquote {
+  border-left: 4px solid #ff6bb3;
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.page-container code {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.page-container .warning-box,
+.page-container .info-box,
+.page-container .tip-box {
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.page-container .warning-box {
+  background: rgba(255, 193, 7, 0.1);
+  border: 1px solid rgba(255, 193, 7, 0.3);
+}
+
+.page-container .info-box {
+  background: rgba(33, 150, 243, 0.1);
+  border: 1px solid rgba(33, 150, 243, 0.3);
+}
+
+.page-container .tip-box {
+  background: rgba(76, 175, 80, 0.1);
+  border: 1px solid rgba(76, 175, 80, 0.3);
+}
+
+.page-container .internal-links {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.page-container .internal-links h3 {
+  margin-top: 0;
+}
+
+.page-container .internal-links a {
+  color: #ff6bb3;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.page-container .internal-links a:hover {
+  color: #b565d8;
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: light) {
+  .page-container {
+    color: #213547;
+  }
+
+  .page-container .intro-text {
+    color: rgba(33, 53, 71, 0.9);
+  }
+
+  .page-container blockquote {
+    color: rgba(33, 53, 71, 0.8);
+  }
+
+  .page-container code {
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  .page-container .warning-box {
+    background: rgba(255, 193, 7, 0.05);
+  }
+
+  .page-container .info-box {
+    background: rgba(33, 150, 243, 0.05);
+  }
+
+  .page-container .tip-box {
+    background: rgba(76, 175, 80, 0.05);
+  }
+
+  .page-container .internal-links {
+    background: rgba(0, 0, 0, 0.03);
+  }
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 2rem 1rem;
+  }
+
+  .page-container h1 {
+    font-size: 2rem;
+  }
+
+  .page-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .page-container h3 {
+    font-size: 1.2rem;
+  }
+}
